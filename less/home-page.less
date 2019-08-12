@@ -5,11 +5,18 @@
     img {
       width: 80%;
       margin: 0 10%;
+      @media @mobile {
+        width: 90%;
+        margin: 0 5%;
+      }
     }
 
     h2 {
       width: 80%;
       margin: 1rem auto 0 auto;
+      @media @mobile {
+        width: 90%;
+      }
     }
 
     p {
@@ -17,6 +24,9 @@
       margin: 0 auto;
       padding-bottom: 2rem;
       border-bottom: 2px dashed @navigation-border;
+      @media @mobile {
+        width: 90%;
+      }
     }
   }
 
@@ -26,6 +36,9 @@
     justify-content: space-between;
     width: 80%;
     margin: 2rem auto;
+    @media @mobile {
+      width: 90%;
+    }
 
 
     .text-content {
