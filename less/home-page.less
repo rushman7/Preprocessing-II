@@ -1,6 +1,6 @@
 .home {
   .top-content-section {
-    border-top: 2px dashed rgb(199, 199, 199);
+    border-top: 2px dashed @navigation-border;
 
     img {
       width: 80%;
@@ -16,7 +16,7 @@
       width: 80%;
       margin: 0 auto;
       padding-bottom: 2rem;
-      border-bottom: 2px dashed rgb(199, 199, 199);
+      border-bottom: 2px dashed @navigation-border;
     }
   }
 
@@ -76,6 +76,15 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      button {
+        background: @eastern-blue;
+        color: white;
+        border-radius: 15px;
+        outline: none;
+        font-size: 2rem;
+        padding: 1rem 4rem;
+      }
     }
   }
 }// home
