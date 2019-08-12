@@ -293,6 +293,11 @@ img {
     margin-top: 2rem;
   }
 }
+@media (max-width: 500px) {
+  .home .inverse-content .text-content {
+    margin-top: 2rem;
+  }
+}
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;

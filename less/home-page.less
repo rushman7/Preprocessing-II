@@ -66,10 +66,18 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+    
+    @media @mobile {
+      margin-top: 2rem;
+    }
+
+    .text-content {
       @media @mobile {
         margin-top: 2rem;
       }
     }
+
+  }
 
   .content-destination {
     width: 75%;
